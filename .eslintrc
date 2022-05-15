@@ -6,7 +6,14 @@
     "node": true
   },
   "rules": {
-    "no-console": "off"
+    "no-console": "off",
+    "import/no-unresolved": "off",
+    "import/extensions": "off",
+    "import/prefer-default-export": "off",
+    "class-methods-use-this": "off"
   },
-  "extends": ["eslint:recommended" ,"airbnb-base"]
+  "extends": [
+    "eslint:recommended",
+    "airbnb-base"
+  ]
 }
